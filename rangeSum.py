@@ -9,8 +9,7 @@ class NumArray(object):
         #This initilization function takes the object (list of numbers)
         #Then, store in the sums variable
 
-        self.nums = nums
-    
+        self.nums = nums 
 
     def sumRange(self, left, right):
         #This function takes the start and end point of list, then returns the sum of the whole integers.
@@ -18,4 +17,4 @@ class NumArray(object):
         return sum(self.nums[left,right+1])
     ################
 
-    ##########
+    ##########$$$$$$#$#$####g
